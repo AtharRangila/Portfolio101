@@ -1,0 +1,128 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: #252525;
+    color: white;
+    font-family: 'Lora', serif; 
+}
+p{
+    font-family: 'Roboto Mono', monospace;
+    
+}
+h1{
+   font-size: 4rem;  
+   margin: 0;
+   padding-top: 1rem;
+}
+.icons{
+    margin-top: 1.5rem;
+    display: inline-block;
+}
+.fab{
+    color: white;
+    padding-right: 35px;
+    opacity: 0.5;
+
+}
+.fab:hover{
+    opacity: 1.5;
+}
+.btn{
+    font-family: 'Roboto Mono', monospace;
+    background-color: #80ffdb ;
+    font-size: 1rem;
+    font-weight: 700;
+    border-radius: 8px;
+    border: 5px solid #80ffdb;
+    margin-top: 2rem;
+    padding: 0.5rem 1 ;
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+.btn:hover{
+    background-color: #252525;
+    color: white;
+    
+}
+
+img{
+    border-radius: 50%;
+    height: 14rem;
+    width: 14rem;
+    object-fit: cover;
+    border: 8px solid #80ffdb
+}
+.container{
+    padding: 2rem 5rem ;
+}
+
+.second{
+
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+.edu,.exp{
+    min-width: 50%;
+    padding-left: rem;
+}
+
+h2{
+    color: #80ffdb;
+    font-size: 3rem ;
+}
+
+h3{
+    font-size: 1.5rem;
+    margin: 0;
+    
+}
+
+.deets{
+    margin: 0;
+}
+.details{
+    margin-bottom: 1rem;
+}
+
+
+/* THIS IS THE CSS FOR OUR FORM */
+
+.form-text{
+    font-family:"Roboto Mono" ;
+    max-width: 420px;
+    line-height: 1.5rem;
+}
+
+textarea{
+    font-family: "Roboto Mono";
+}
+
+.form-body{
+    margin-top: 2rem;
+}
+
+.input-field{
+    width: 50%;
+    margin: 1rem 0;
+    display: block;
+    background-color: #252525;
+    border: 2px solid #80ffdb;
+    border-radius: 0.5rem;
+    padding: 1rem;
+
+}
+.input-field::placeholder{
+    color: rgba(red, green, blue, alpha);
+    line-height: 1.5rem;
+}
+.input-field:focus, .input-field:hover{
+    color: black;
+    outline: none;
+    background-color: #80ffdb;
+}
+.input-field:focus::placeholder,
+ .input-field:hover::placeholder{
+     color: black;
+ }
